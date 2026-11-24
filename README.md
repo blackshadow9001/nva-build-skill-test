@@ -6,7 +6,7 @@ Static, click-through prototypes exported from the Claude Design canvas. Plain H
 
 | Flow | Status | Device | Screens | Exported | Handoff |
 |---|---|---|---|---|---|
-| [Sample · Login: Lucy signs in and lands on her home](flows/login-sample/index.html) | sample | mobile | 2 | 2026-11-25 | [notes](flows/login-sample/HANDOFF.md) |
+| [Sample · Login: Lucy signs in and lands on her home](flows/login-sample/index.html) | ready for build | mobile | 2 | 2026-11-26 | [notes](flows/login-sample/HANDOFF.md) |
 
 ## How this repo is organized
 

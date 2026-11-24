@@ -1,8 +1,8 @@
 {
   "slug": "login-sample",
-  "title": "Sample · Login: Lucy signs in and lands on her home",
+  "title": "Sample \u00b7 Login: Lucy signs in and lands on her home",
   "order": 90,
-  "status": "sample",
+  "status": "ready for build",
   "device": "mobile",
   "entry": "index.html",
   "source": {
@@ -11,12 +11,28 @@
     "page": "login (sample)",
     "designSystem": "Syrup (shad), as installed on the canvas"
   },
-  "exportedAt": "2026-11-25",
+  "exportedAt": "2026-11-26",
   "screens": [
-    { "id": "LG01", "title": "Sign in", "file": "index.html", "artboard": "LG01-SignIn.dc.html", "sha256": "f445bd5f3a81ebb233f16f4742c6a8ca6bf11ef8cb53fef9644444cfccc0a87e" },
-    { "id": "LG02", "title": "Home, signed in", "file": "home.html", "artboard": "LG02-Home.dc.html", "sha256": "e08a32a5fceede2c986e64ecb48688d112cdf6c086c6a9b9919c13165a4a190c" }
+    {
+      "id": "LG01",
+      "title": "Sign in",
+      "file": "index.html",
+      "artboard": "LG01-SignIn.dc.html",
+      "sha256": "f445bd5f3a81ebb233f16f4742c6a8ca6bf11ef8cb53fef9644444cfccc0a87e"
+    },
+    {
+      "id": "LG02",
+      "title": "Home, signed in",
+      "file": "home.html",
+      "artboard": "LG02-Home.dc.html",
+      "sha256": "e08a32a5fceede2c986e64ecb48688d112cdf6c086c6a9b9919c13165a4a190c"
+    }
   ],
   "tweaks": [
-    { "name": "Returning user", "canvas": "entry: Returning | New (default New)", "url": "?entry=returning" }
+    {
+      "name": "Returning user",
+      "canvas": "entry: Returning | New (default New)",
+      "url": "?entry=returning"
+    }
   ]
 }
