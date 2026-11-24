@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>What would help · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="help">
+  <div class="app">
+    <section class="hero forest on-dark" style="padding-bottom:62px">
+      <div class="flute"></div><svg class="waves" data-waves></svg>
+      <div class="topbar"><a href="ip06-costs.html" aria-label="Back" class="icon-btn glass"><i data-icon="chevron-left" data-size="20"></i></a><span class="progress" role="progressbar" aria-label="Step 3 of 3" aria-valuemin="1" aria-valuemax="3" aria-valuenow="3"><span class="done"></span><span class="done"></span><span class="current"></span></span><span class="spacer"></span></div>
+      
+    <div class="profile glass rise">
+      <div class="profile-head">
+        <span class="photo thumb" role="img" aria-label="Waffles' photo"><span class="puppy-wrap" data-puppy="46"></span></span>
+        <span class="stack gap-6" style="gap:2px;min-width:0"><span class="profile-name"><span data-bind="possessive"></span> profile</span><span class="profile-sub" data-bind="profile"></span></span>
+      </div>
+      <div class="tags"><span class="tag-glass glass">Golden puppy</span><span class="tag-glass glass" data-bind="area"></span><span class="tag-glass glass" data-bind="easy"></span><span class="tag-glass tag-new pop" style="animation-delay:.5s"><i data-icon="plus" data-size="12"></i><span data-bind="cost"></span></span></div>
+    </div>
+    </section>
+    <section class="sheet">
+      <div class="scroll rise">
+        <div class="stack gap-10">
+          <h1 class="title-lg" id="q">What would help most right now?</h1>
+          <p class="lede">Pick any, or just tell us.</p>
+        </div>
+        <div id="help-opts" role="group" aria-labelledby="q" class="stack gap-10"><button type="button" class="pill">Puppy shots</button><button type="button" class="pill">Finding a vet</button><button type="button" class="pill">House training</button><button type="button" class="pill">Food and nutrition</button><button type="button" class="pill">Socializing</button></div>
+        <div class="card voice" id="voice">
+          <label for="note" class="sr-only">Tell us in your own words</label>
+          <input id="note" type="text" placeholder="&ldquo;She chews everything...&rdquo;" autocomplete="off">
+          <span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <button type="button" class="mic" id="mic" aria-label="Speak" aria-pressed="false"><i data-icon="mic" data-size="18"></i></button>
+        </div>
+      </div>
+      <div class="foot"><a href="ip08-building.html" class="cta"><span>Build <span data-bind="possessive"></span> plan</span><i data-icon="arrow-right" data-size="18"></i></a></div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

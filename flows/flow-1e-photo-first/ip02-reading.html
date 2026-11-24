@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>Getting to know your pet · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="reading">
+  <div class="app">
+    <section class="hero" style="height:394px">
+      <div class="photo" role="img" aria-label="Your photo: a Golden Retriever puppy on the grass" style="position:absolute;inset:0">
+        <span style="position:absolute;left:50%;top:56px;transform:translateX(-50%)" data-puppy="250"></span>
+      </div>
+      <div class="scan-wrap" aria-hidden="true"><span class="scan"></span></div>
+      <div aria-hidden="true" style="position:absolute;left:50%;top:60px;transform:translateX(-50%);width:250px;height:250px">
+        <svg width="250" height="250" viewBox="0 0 250 250" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M2 30V2h28M220 2h28v28M248 220v28h-28M30 248H2v-28"/></svg>
+        <div style="position:absolute;inset:0;left:-70px;width:390px"><span class="ai-tag" style="left:30px;top:54px;animation-delay:0.7s"><span class="dot"></span>Dog</span><span class="ai-tag" style="left:170px;top:14px;animation-delay:1.15s"><span class="dot"></span>Golden Retriever</span><span class="ai-tag" style="left:40px;top:204px;animation-delay:1.6s"><span class="dot"></span>~10 weeks</span><span class="ai-tag" style="left:230px;top:166px;animation-delay:2.05s"><span class="dot"></span>~14 lb</span></div>
+      </div>
+      <div class="topbar">
+        <a href="ip01-meet.html" aria-label="Back" class="icon-btn"><i data-icon="chevron-left" data-size="20"></i></a>
+        <span class="status-pill" role="status"><i data-icon="sparkles" data-size="14"></i><span id="status-text">Reading the photo</span></span>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="scroll rise">
+        <div class="stack gap-6"><span class="eyebrow">Getting to know them</span><h1 class="title-md">Here's what we can tell.</h1></div>
+        <div class="stack gap-12" aria-live="polite"><div class="in" style="display:flex;align-items:center;gap:12px;animation-delay:0.6s"><span class="tile-icon"><i data-icon="paw-print" data-size="16"></i></span><span class="kv"><span class="kv-k">Species</span><span class="kv-v">Dog</span></span><span class="done-dot pop" style="animation-delay:0.8s"><i data-icon="check" data-size="12"></i></span></div><div class="in" style="display:flex;align-items:center;gap:12px;animation-delay:1.1s"><span class="tile-icon"><i data-icon="dna" data-size="16"></i></span><span class="kv"><span class="kv-k">Breed</span><span class="kv-v">Golden Retriever · 92% match</span></span><span class="done-dot pop" style="animation-delay:1.3s"><i data-icon="check" data-size="12"></i></span></div><div class="in" style="display:flex;align-items:center;gap:12px;animation-delay:1.5s"><span class="tile-icon"><i data-icon="cake" data-size="16"></i></span><span class="kv"><span class="kv-k">Age</span><span class="kv-v">About 10 weeks</span></span><span class="done-dot pop" style="animation-delay:1.7s"><i data-icon="check" data-size="12"></i></span></div><div class="in" style="display:flex;align-items:center;gap:12px;animation-delay:2.0s"><span class="tile-icon"><i data-icon="scale" data-size="16"></i></span><span class="kv"><span class="kv-k">Weight</span><span class="kv-v">About 14 lb</span></span><span class="done-dot pop" style="animation-delay:2.2s"><i data-icon="check" data-size="12"></i></span></div><div class="in" style="display:flex;align-items:center;gap:12px;animation-delay:2.4s"><span class="tile-icon"><i data-icon="map-pin" data-size="16"></i></span><span class="kv"><span class="kv-k">Location</span><span class="kv-v">Fremont, Seattle</span></span><span class="done-dot pop" style="animation-delay:2.6s"><i data-icon="check" data-size="12"></i></span></div></div>
+        <p class="fine">Location comes from the photo's place tag, only because you chose this photo. You can change any of this next.</p>
+      </div>
+      <div class="foot"><a href="ip03-confirm.html" class="cta" id="cta" hidden>Check the details<i data-icon="arrow-right" data-size="18"></i></a></div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

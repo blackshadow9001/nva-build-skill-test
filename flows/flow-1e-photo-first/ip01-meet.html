@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>Meet your pet · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="meet">
+  <div class="app">
+    <section class="hero forest on-dark" style="height:282px">
+      <div class="flute"></div><svg class="waves" data-waves></svg>
+      <div class="topbar"><a href="index.html" aria-label="Back" class="icon-btn glass"><i data-icon="chevron-left" data-size="20"></i></a><span class="wordmark"><span data-mark="16"></span>NVA</span><span class="spacer"></span></div>
+      <div style="position:relative;display:flex;justify-content:center;margin-top:22px">
+        <span class="breathe" aria-hidden="true" style="position:absolute;top:50%;left:50%;width:200px;height:200px;margin:-100px;border-radius:999px;border:1.5px dashed rgba(215,243,106,.5)"></span>
+        <span class="glass" style="position:relative;display:flex;align-items:center;justify-content:center;width:150px;height:150px;border-radius:999px;color:var(--lime)"><i data-icon="camera" data-size="40"></i></span>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="scroll rise">
+        <div class="stack gap-10">
+          <h1 class="title-lg">We'd love to meet your pet.</h1>
+          <p class="lede">Add a photo and we'll take it from there. No long forms.</p>
+        </div>
+        <div class="stack gap-12">
+          <span style="display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:600">Pets we spotted in your recent photos
+            <span style="display:flex;align-items:center;gap:4px;font-size:12px;font-weight:500;color:var(--muted)"><i data-icon="lock" data-size="12"></i>On device</span></span>
+          <div id="photo-grid" class="photo-grid" role="radiogroup" aria-label="Choose a photo"></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <button type="button" class="ghost" id="btn-camera"><i data-icon="camera" data-size="16"></i>Take a photo</button>
+          <button type="button" class="ghost" id="btn-library"><i data-icon="images" data-size="16"></i>Library</button>
+        </div>
+        <input type="file" id="file-camera" accept="image/*" capture="environment" hidden>
+        <input type="file" id="file-library" accept="image/*" hidden>
+      </div>
+      <div class="foot"><a href="ip02-reading.html" class="cta"><span>Use this photo</span><i data-icon="arrow-right" data-size="18"></i></a></div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
