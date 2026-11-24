@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>Welcome · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="home">
+  <div class="app">
+    <section class="hero" style="flex:1;min-height:0;display:flex;flex-direction:column">
+      <div style="position:relative;flex:1;min-height:0;overflow:hidden">
+        <!-- Drop the homepage photo in assets/hero.jpg. Until then an illustrated fallback shows. -->
+        <img id="hero-photo" src="assets/hero.jpg" alt="A smiling NVA team member holds a scruffy gray dog on a city sidewalk" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 30%">
+        <div id="hero-fallback" class="forest" hidden style="position:absolute;inset:0">
+          <div class="flute"></div><svg class="waves" data-waves></svg>
+          <span class="float" style="position:absolute;left:50%;top:52%;transform:translate(-50%,-50%)" data-puppy="200" data-label="An illustrated golden puppy"></span>
+        </div>
+        <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,44,34,.45) 0%,rgba(15,44,34,0) 30%)"></div>
+        <div class="topbar on-dark" style="position:absolute;left:0;right:0;top:0;color:#fff">
+          <span class="wordmark" style="gap:10px;font-size:15px;letter-spacing:.2em"><span data-mark="22"></span>NVA</span>
+          <button type="button" class="icon-btn" aria-label="Menu" data-toast="The site menu isn't part of this prototype.">
+            <i data-icon="menu" data-size="18"></i></button>
+        </div>
+      </div>
+      <div class="sheet" style="flex:none">
+        <div class="rise stack gap-14" style="padding:32px 20px calc(20px + env(safe-area-inset-bottom))">
+          <span class="eyebrow">Pet care, made personal</span>
+          <h1 class="title-xl">Care that grows with them.</h1>
+          <p style="font-size:16px;line-height:24px;color:var(--muted);max-width:325px">One photo and a few taps. We'll shape everything around your pet, from the first visit on.</p>
+          <a href="ip01-meet.html" class="cta" style="margin-top:6px"><span>Get Started with NVA</span><i data-icon="arrow-right" data-size="18"></i></a>
+          <a href="#signin" class="text-link" data-toast="Sign-in isn't part of this flow. See the login sample.">I already have an account</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

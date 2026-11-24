@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>Care costs · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="costs">
+  <div class="app">
+    <section class="hero forest on-dark" style="padding-bottom:62px">
+      <div class="flute"></div><svg class="waves" data-waves></svg>
+      <div class="topbar"><a href="ip05-easy.html" aria-label="Back" class="icon-btn glass"><i data-icon="chevron-left" data-size="20"></i></a><span class="progress" role="progressbar" aria-label="Step 2 of 3" aria-valuemin="1" aria-valuemax="3" aria-valuenow="2"><span class="done"></span><span class="current"></span><span class=""></span></span><a href="ip07-help.html" class="skip">Skip</a></div>
+      
+    <div class="profile glass rise">
+      <div class="profile-head">
+        <span class="photo thumb" role="img" aria-label="Waffles' photo"><span class="puppy-wrap" data-puppy="46"></span></span>
+        <span class="stack gap-6" style="gap:2px;min-width:0"><span class="profile-name"><span data-bind="possessive"></span> profile</span><span class="profile-sub" data-bind="profile"></span></span>
+      </div>
+      <div class="tags"><span class="tag-glass glass">Golden puppy</span><span class="tag-glass glass" data-bind="area"></span><span class="tag-glass tag-new pop" style="animation-delay:.5s"><i data-icon="plus" data-size="12"></i><span data-bind="easy"></span></span></div>
+    </div>
+    </section>
+    <section class="sheet">
+      <div class="scroll rise">
+        <div class="stack gap-10">
+          <h1 class="title-lg" id="q">How do you like to handle care costs?</h1>
+          <p class="lede">Optional. Change it any time.</p>
+        </div>
+        <div id="cost-opts" role="radiogroup" aria-labelledby="q" class="stack gap-10"><button type="button" role="radio" class="pill">A predictable monthly plan</button><button type="button" role="radio" class="pill">Pay as I go</button><button type="button" role="radio" class="pill">Use pet insurance</button><button type="button" role="radio" class="pill">Not sure yet</button></div>
+        <div class="card card--cream stack gap-8" aria-live="polite" style="padding:16px">
+          <span style="display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--forest)"><i data-icon="sparkles" data-size="14"></i><span>For a Golden puppy near <span data-bind="area"></span></span></span>
+          <span id="tip-big" style="font-size:22px;font-weight:600;letter-spacing:-.02em"></span>
+          <span id="tip-small" style="font-size:13px;line-height:19px;color:var(--muted)"></span>
+        </div>
+      </div>
+      <div class="foot"><a href="ip07-help.html" class="cta"><span>Continue</span><i data-icon="arrow-right" data-size="18"></i></a></div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123b2d">
+  <title>Confirm details · NVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body data-page="confirm">
+  <div class="app">
+    <section class="hero forest on-dark" style="height:204px">
+      <div class="flute"></div><svg class="waves" data-waves></svg>
+      <div class="topbar"><a href="ip02-reading.html" aria-label="Back" class="icon-btn glass"><i data-icon="chevron-left" data-size="20"></i></a><span class="wordmark"><span data-mark="16"></span>NVA</span><span class="spacer"></span></div>
+      <div style="position:relative;display:flex;justify-content:center;margin-top:14px">
+        <span class="photo" role="img" aria-label="Your photo" style="width:96px;height:96px;border-radius:28px;border:4px solid #fff;box-shadow:0 6px 18px -10px rgba(15,44,34,.4)">
+          <span style="position:absolute;left:50%;bottom:-8px;transform:translateX(-50%)" data-puppy="86"></span></span>
+      </div>
+    </section>
+    <section class="sheet">
+      <div class="scroll rise">
+        <div class="stack gap-10">
+          <h1 class="title-lg">Did we get it right?</h1>
+          <p class="lede">Tap anything that's off. Best guesses are marked.</p>
+        </div>
+        <div class="stack gap-8">
+          <label class="label" for="pet-name">Their name</label>
+          <input class="field" id="pet-name" autocomplete="off" autocapitalize="words">
+          <span id="praise" class="soft-tag pop" style="animation-delay:.4s"><i data-icon="check" data-size="14"></i>Lovely name</span>
+        </div>
+        <div class="card" id="detail-rows" style="overflow:hidden"></div>
+      </div>
+      <div class="foot"><a href="ip04-avatar.html" class="cta"><span>Looks right</span><i data-icon="arrow-right" data-size="18"></i></a></div>
+    </section>
+  </div>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
