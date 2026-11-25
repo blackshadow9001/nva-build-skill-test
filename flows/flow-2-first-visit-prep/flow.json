@@ -1,0 +1,33 @@
+{
+  "slug": "flow-2-first-visit-prep",
+  "title": "Flow 2 · First Visit Prep: getting ready for the appointment",
+  "order": 20,
+  "status": "draft",
+  "device": "mobile",
+  "entry": "index.html",
+  "source": {
+    "canvas": "https://claude.ai/artifact/D4XJKb75MC5eRZ27ku9X1A",
+    "canvasVersion": "1795562226-1d09",
+    "page": "Flow 1 · Vet Finder (Flow 2 row)",
+    "designSystem": "Syrup (shad), as installed on the canvas"
+  },
+  "exportedAt": "2026-11-25",
+  "screens": [
+    {
+      "id": "2.1",
+      "title": "Confirmation email",
+      "file": "index.html",
+      "artboard": "FVP-Email.dc.html",
+      "sha256": "4d57b452183bad46909d795ab9397bbad83feec0a0023d93a2d2b6292a33a658"
+    },
+    {
+      "id": "2.2",
+      "title": "First Visit Prep",
+      "file": "fvp-guide.html",
+      "artboard": "FVP-Guide.dc.html",
+      "sha256": "7068247b2484c84a16d04dfb7df8a9da04293761d4ace4b9dc1db008e3782f50"
+    }
+  ],
+  "tweaks": [],
+  "missingAssets": []
+}
