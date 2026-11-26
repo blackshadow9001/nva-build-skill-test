@@ -24,3 +24,7 @@
 ## Not built
 
 Forgot password, create account, reschedule, notifications, other tabs.
+
+## Open questions
+
+- LG01 now says "ACME Pet Care" (canvas update, 2026-11-26), but LG02 Home on the canvas still says "NVA Pet Care", so the brand changes between the two screens. Update LG02 on the canvas, then re-publish.
