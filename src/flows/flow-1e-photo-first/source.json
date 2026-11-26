@@ -1,0 +1,58 @@
+{
+  "canvas": "https://claude.ai/artifact/D4XJKb75MC5eRZ27ku9X1A",
+  "canvasVersion": "1794849453-f61d",
+  "page": "Flow 1 · Vet Finder",
+  "designSystem": "Artevis palette (custom, not Syrup)",
+  "exportedAt": "2026-11-25",
+  "artboards": {
+    "IP00": {
+      "file": "IP00-Home.dc.html",
+      "sha256": "28b33c6f7ff7530e7bee966929c8edd1dec7c319be33af00548c218ee63378b2"
+    },
+    "IP01": {
+      "file": "IP01-Meet.dc.html",
+      "sha256": "7df974855fa586a747bf5f231b2f87da11ca79f52d20fe66a9b7441aee06704c"
+    },
+    "IP02": {
+      "file": "IP02-Reading.dc.html",
+      "sha256": "25664b377ddab71516aec6a46cc17b18ab6c0ff4133e548b1917f2ead7794e3f"
+    },
+    "IP03": {
+      "file": "IP03-Confirm.dc.html",
+      "sha256": "763f259210ba318aaa36384f90237877a5a03568c683ff7cf4acf7c20fa33704"
+    },
+    "IP04": {
+      "file": "IP04-Avatar.dc.html",
+      "sha256": "a0251ebf7ef0b2dd243bf6b521ffde73117b49ba928eae4c94d20979fc777379"
+    },
+    "IP05": {
+      "file": "IP05-Easy.dc.html",
+      "sha256": "9ea5cbef3aec887650f3f7cc5c3cd76c76b719fe3c71b2d0805743e0fc35d727"
+    },
+    "IP06": {
+      "file": "IP06-Costs.dc.html",
+      "sha256": "aff96607ff595d19bd55c6a86ad1653141c1dd43370ce83724ee123391cb264a"
+    },
+    "IP07": {
+      "file": "IP07-Help.dc.html",
+      "sha256": "5410bd5b1910681557e3a4150012aacd28eaea838885e76fbdebabdea4261914"
+    },
+    "IP08": {
+      "file": "IP08-Building.dc.html",
+      "sha256": "73c5b974d8bbb40a04581d98691d4e6861d591d22a2cfdd632860a2947a08ba9"
+    },
+    "IP09": {
+      "file": "IP09-Home.dc.html",
+      "sha256": "e4728381252cb0f009869e9357f648c686393c76ee010b79fcadd6f4ed848229"
+    }
+  },
+  "tweaks": [],
+  "missingAssets": [
+    {
+      "file": "assets/hero.jpg",
+      "artboard": "IP00-Home.dc.html",
+      "alt": "A smiling team member holds a scruffy gray dog on a city sidewalk",
+      "note": "Canvas image can't be exported by tools; download it from the canvas and save here. An illustrated fallback shows until then."
+    }
+  ]
+}

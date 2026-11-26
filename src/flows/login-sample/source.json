@@ -1,0 +1,13 @@
+{
+  "canvas": "https://claude.ai/artifact/D4XJKb75MC5eRZ27ku9X1A",
+  "canvasVersion": "1795654252-6148",
+  "page": "login (sample)",
+  "designSystem": "Syrup (shad)",
+  "exportedAt": "2026-11-26",
+  "artboards": {
+    "LG01": { "file": "LG01-SignIn.dc.html", "sha256": "0b26121e073aa0ce3cbbd19cc5d3b5885d7ae35d452e471c6ccc0ccc9426511c" },
+    "LG02": { "file": "LG02-Home.dc.html", "sha256": "e08a32a5fceede2c986e64ecb48688d112cdf6c086c6a9b9919c13165a4a190c" }
+  },
+  "tweaks": [{ "name": "Returning user", "canvas": "entry: Returning | New (default New)", "url": "?entry=returning" }],
+  "missingAssets": []
+}
