@@ -7,6 +7,7 @@ Static, click-through prototypes exported from the Claude Design canvas. Plain H
 | Flow | Status | Device | Screens | Exported | Handoff |
 |---|---|---|---|---|---|
 | [Flow 1e · Photo-first intake: Waffles' photo fills in her profile](flows/flow-1e-photo-first/index.html) | in review | mobile | 10 | 2026-11-25 | [notes](flows/flow-1e-photo-first/HANDOFF.md) |
+| [Flow 2 · First Visit Prep: getting ready for the appointment](flows/flow-2-first-visit-prep/index.html) | draft | mobile | 2 | 2026-11-25 | [notes](flows/flow-2-first-visit-prep/HANDOFF.md) |
 | [Sample · Login: Lucy signs in and lands on her home](flows/login-sample/index.html) | ready for build | mobile | 2 | 2026-11-26 | [notes](flows/login-sample/HANDOFF.md) |
 
 ## How this repo is organized
