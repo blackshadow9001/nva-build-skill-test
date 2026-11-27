@@ -1,0 +1,6 @@
+# Netlify: production from main, a Deploy Preview for every pull request.
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+[build.environment]
+  NODE_VERSION = "22"
